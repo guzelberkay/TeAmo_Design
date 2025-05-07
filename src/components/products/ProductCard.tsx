@@ -11,46 +11,48 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product, index }) => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="card group"
-    >
-      <Link to={`/product/${product.id}`}>
-        <div className="relative overflow-hidden aspect-square">
-          <img 
-            src={product.images[0]} 
-            alt={product.name}
-            className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105" 
-          />
-          <div className="absolute top-3 right-3 bg-white px-3 py-1 rounded text-sm font-medium text-primary-800">
-            {formatPrice(product.price)}
+      <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: index * 0.1 }}
+          className="card group"
+      >
+        <Link to={`/product/${product.id}`}>
+          {/* Görsel kutusu: sabit oran ve boyut */}
+          <div className="w-full h-96 overflow-hidden relative">
+            <img
+                src={product.images[0]}
+                alt={product.name}
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div className="absolute top-3 right-3 bg-white px-3 py-1 rounded text-sm font-medium text-primary-800 shadow">
+              {formatPrice(product.price)}
+            </div>
           </div>
-        </div>
-        
-        <div className="p-5">
-          <h3 className="text-lg font-medium mb-2 group-hover:text-primary-800 transition-colors">
-            {product.name}
-          </h3>
-          <p className="text-primary-600 text-sm mb-4">
-            {product.shortDescription}
-          </p>
-          <div className="flex justify-between items-center">
+
+          {/* Alt içerik */}
+          <div className="p-5">
+            <h3 className="text-lg font-medium mb-2 group-hover:text-primary-800 transition-colors">
+              {product.name}
+            </h3>
+            <p className="text-primary-600 text-sm mb-4">
+              {product.shortDescription}
+            </p>
+            <div className="flex justify-between items-center">
             <span className="text-sm text-primary-700">
               {product.category === 'table' && 'Masa'}
               {product.category === 'chair' && 'Sandalye'}
               {product.category === 'stool' && 'Bar Taburesi'}
               {product.category === 'set' && 'Set'}
             </span>
-            <span className="inline-flex items-center text-sm font-medium text-primary-800 hover:text-primary-700 transition-colors">
+              <span className="inline-flex items-center text-sm font-medium text-primary-800 hover:text-primary-700 transition-colors">
               Detay Gör
             </span>
+            </div>
           </div>
-        </div>
-      </Link>
-    </motion.div>
+        </Link>
+      </motion.div>
   );
 };
 
