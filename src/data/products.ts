@@ -19,7 +19,12 @@ import cafeTakim13 from '../images/cafe_takim_13.webp';
 import cafeTakim14 from '../images/cafe_takim_14.webp';
 import cafeTakim15 from '../images/cafe_takim_15.webp';
 import cafeTakim15_2 from '../images/cafe_takim_15.2.webp';
-
+import sandalye1 from '../images/sandalye_1.webp';
+import sandalye1_2 from '../images/sandalye_1_2.webp';
+import sandalye2 from '../images/sandalye_2.webp';
+import sandalye2_2 from '../images/sandalye_2_2.webp';
+import sandalye3 from '../images/sandalye_3.webp';
+import sandalye4 from '../images/sandalye 4.webp';
 
 
 
@@ -294,6 +299,67 @@ export const products: Product[] = [
     images: [cafeTakim15, cafeTakim15_2]
   }
 ,
+
+    {
+      id: '16',
+      name: 'CafeVibe Metal Sandalye',
+      category: 'chair',
+      shortDescription: 'Modern ve şık tekli sandalye',
+      description: 'CafeVibe Metal Sandalye – Modern bir kafeterya veya açık hava alanı için tasarlanmış, şık ve minimalist bir yapıya sahiptir. Sırt kısmındaki dekoratif detaylar, mekâna zarafet katar. Hafif yapısı sayesinde kolayca taşınabilir ve istiflenebilir. İç ve dış mekânlarda kullanıma uygundur.',
+      material: 'Metal gövde, lazer kesim sırt tasarımı, statik boya',
+      dimensions: {
+        width: 45,
+        depth: 50,
+        height: 85
+      },
+      price: 7600,
+      images: [sandalye1, sandalye1_2]
+    },
+    {
+      id: '17',
+      name: 'LoftLine Tel Sandalye',
+      category: 'chair',
+      shortDescription: 'Modern ve şık tekli sandalye',
+      description: 'LoftLine Tel Sandalye – Endüstriyel tasarımı yumuşak yastık detayıyla birleştiren bu sandalye, hem rahat hem de şıktır. Metal tel sırt tasarımı sayesinde ferah bir görünüm sunar. Kafeler ve modern iç mekânlar için ideal seçimdir.',
+      material: 'Metal gövde, kumaş minder, tel sırt ve kolçak tasarımı',
+      dimensions: {
+        width: 50,
+        depth: 55,
+        height: 85
+      },
+      price: 7600,
+      images: [sandalye2, sandalye2_2]
+    },
+    {
+      id: '18',
+      name: 'GoldAura Kadife Sandalye',
+      category: 'chair',
+      shortDescription: 'Modern ve şık tekli sandalye',
+      description: 'GoldAura Kadife Sandalye – Altın kaplama metal kolçak detayları ve kadife kumaşıyla zarif ve çağdaş bir görünüm sunar. Şık tasarımıyla restoran, otel lobi alanları veya ofis bekleme alanları için idealdir.',
+      material: 'Kadife kumaş döşeme, metal ayak ve kolçak (altın kaplama)',
+      dimensions: {
+        width: 52,
+        depth: 58,
+        height: 85
+      },
+      price: 7600,
+      images: [sandalye3]
+    },
+    {
+      id: '19',
+      name: 'RetroPop Turuncu Sandalye',
+      category: 'chair',
+      shortDescription: 'Modern ve şık tekli sandalye',
+      description: 'RetroPop Turuncu Sandalye – Canlı rengiyle dikkat çeken, modern retro tasarıma sahip bu sandalye, kavisli sırt yapısı ve konforlu oturum yüzeyiyle öne çıkar. Kafeler, restoranlar ve yaratıcı çalışma alanları için hem estetik hem de ergonomik bir çözümdür.',
+      material: 'Suni deri döşeme, metal ayaklar, ahşap kolçak detayları',
+      dimensions: {
+        width: 52,
+        depth: 60,
+        height: 85
+      },
+      price: 7600,
+      images: [sandalye4]
+    }
 
 
 ];
