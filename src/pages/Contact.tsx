@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
       description: 'Hızlı bilgi almak ve sipariş vermek için',
       action: {
         text: 'WhatsApp\'tan Mesaj Gönder',
-        link: 'https://wa.me/905555555555'
+        link: 'https://wa.me/905339388782'
       }
     },
     {

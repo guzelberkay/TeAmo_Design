@@ -25,6 +25,18 @@ import sandalye2 from '../images/sandalye_2.webp';
 import sandalye2_2 from '../images/sandalye_2_2.webp';
 import sandalye3 from '../images/sandalye_3.webp';
 import sandalye4 from '../images/sandalye 4.webp';
+import sandalye5 from '../images/sandalye_5.webp';
+import sandalye6 from '../images/sandalye_6.webp';
+import sandalye6_2 from '../images/sandalye_6.2.webp';
+import sandalye7 from '../images/sandalye_7.webp';
+import sandalye8 from '../images/sandalye_8.webp';
+import sandalye9 from '../images/sandalye_9.webp';
+import sandalye10 from '../images/sandalye_10.webp';
+import sandalye11 from '../images/sandalye_11.webp';
+import sandalye12 from '../images/sandalye_12.webp';
+
+
+
 
 
 
@@ -359,7 +371,98 @@ export const products: Product[] = [
       },
       price: 7600,
       images: [sandalye4]
+    },
+    {
+      id: '20',
+      name: 'NoirEdge Deri Kolçaklı Sandalye',
+      category: 'chair',
+      shortDescription: 'Modern ve şık tekli sandalye',
+      description: 'NoirEdge Deri Kolçaklı Sandalye – Mat siyah suni deri döşemesi, koyu metal gövdesi ve doğal ahşap kolçaklarıyla hem zarif hem de dayanıklı bir tasarıma sahiptir. Kafeler ve ofisler için ideal bir seçimdir.',
+      material: 'Suni deri döşeme, metal ayaklar, ahşap kolçaklar',
+      dimensions: { width: 52, depth: 60, height: 85 },
+      price: 7600,
+      images: [sandalye5]
+    },
+    {
+      id: '21',
+      name: 'VerdeCraft Desenli Yeşil Sandalye',
+      category: 'chair',
+      shortDescription: 'Modern ve şık tekli sandalye',
+      description: 'VerdeCraft Desenli Yeşil Sandalye – Parlak yeşil ve beyaz kare desenli dokusu ve beyaz çerçevesiyle taze ve enerjik bir atmosfer sunar. Renkli iç mekânlar ve yaratıcı alanlar için idealdir.',
+      material: 'Kumaş döşeme, metal ayaklar, ahşap kolçaklar',
+      dimensions: { width: 52, depth: 60, height: 85 },
+      price: 7600,
+      images: [sandalye6, sandalye6_2]
+    },
+    {
+      id: '22',
+      name: 'GraphiForm Kontrast Sandalye',
+      category: 'chair',
+      shortDescription: 'Modern ve şık tekli sandalye',
+      description: 'GraphiForm Kontrast Sandalye – Siyah düz sırt döşemesi ve geometrik desenli oturma alanı ile kontrast tasarımı sevenler için güçlü bir tercih. Kafelerde fark yaratmak isteyenler için uygundur.',
+      material: 'Kumaş döşeme, metal ayaklar, ahşap kolçaklar',
+      dimensions: { width: 52, depth: 60, height: 85 },
+      price: 7600,
+      images: [sandalye7]
+    },
+    {
+      id: '23',
+      name: 'EmeraldEdge Yeşil Deri Sandalye',
+      category: 'chair',
+      shortDescription: 'Modern ve şık tekli sandalye',
+      description: 'EmeraldEdge Yeşil Deri Sandalye – Zümrüt yeşili döşemesi, sade ve düz yapısıyla hem geleneksel hem modern dekorlara uyum sağlar. Metal iskeletiyle dayanıklı bir yapıya sahiptir.',
+      material: 'Suni deri döşeme, metal ayaklar, ahşap kolçaklar',
+      dimensions: { width: 52, depth: 60, height: 85 },
+      price: 7600,
+      images: [sandalye8]
+    },
+    {
+      id: '24',
+      name: 'MonoCheck Ekose Sandalye',
+      category: 'chair',
+      shortDescription: 'Modern ve şık tekli sandalye',
+      description: 'MonoCheck Ekose Sandalye – Siyah-beyaz ekose döşemesi ve yuvarlatılmış sırt tasarımıyla nostaljiyle modernizmi harmanlar. Restoran, bar ve butik kafeler için dikkat çekici bir parça.',
+      material: 'Kumaş döşeme, metal ayaklar, ahşap kolçaklar',
+      dimensions: { width: 52, depth: 60, height: 85 },
+      price: 7600,
+      images: [sandalye9]
+    },
+    {
+      id: '25',
+      name: 'ComfyNest Berjer Takım',
+      category: 'chair',
+      shortDescription: 'Konforlu berjer tipi sandalye ve puf takımı',
+      description: 'ComfyNest Berjer Takım – Geniş yapısı, kalın minderleri ve pufu ile konforu ön planda tutar. Oturma alanlarında, lobilerde ya da dinlenme köşelerinde rahatlıkla kullanılabilir.',
+      material: 'Kumaş döşeme, metal ayaklar, sünger dolgulu iç yapı',
+      dimensions: { width: 60, depth: 65, height: 85 },
+      price: 7600,
+      images: [sandalye10]
+    },
+    {
+      id: '26',
+      name: 'RetroPop Mor Sandalye',
+      category: 'chair',
+      shortDescription: 'Modern retro tarzda tekli sandalye',
+      description: 'RetroPop Mor Sandalye – Canlı mor kadife döşemesi ve beyaz metal gövdesiyle dikkat çeken bu parça, özgün ve renkli mekanlar yaratmak isteyenlere hitap eder.',
+      material: 'Kadife kumaş döşeme, metal ayaklar, metal kolçaklar',
+      dimensions: { width: 52, depth: 60, height: 85 },
+      price: 7600,
+      images: [sandalye11]
+    },
+    {
+      id: '27',
+      name: 'UrbanGrey Antrasit Sandalye',
+      category: 'chair',
+      shortDescription: 'Sade ve çağdaş tekli sandalye',
+      description: 'UrbanGrey Antrasit Sandalye – Düz antrasit rengiyle ofis ve yemek alanlarında sade şıklık sunar. İnce siyah metal iskeletiyle modern çizgiler taşır.',
+      material: 'Kumaş döşeme, metal ayaklar, metal kolçaklar',
+      dimensions: { width: 52, depth: 60, height: 85 },
+      price: 7600,
+      images: [sandalye12]
     }
+
+
+
 
 
 ];

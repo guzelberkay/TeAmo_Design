@@ -44,11 +44,9 @@ const ProductDetail: React.FC = () => {
             </motion.button>
           </div>
 
-          {/* Görselin kenar boşluklarını kaldırmak için dışarı taşıyoruz */}
-          <div className="-mx-4 sm:-mx-6 lg:-mx-8">
-            <div className="container-custom">
-              <ProductInfo product={product} />
-            </div>
+          {/* Görselin kenar boşlukları kontrol altında */}
+          <div className="container-custom">
+            <ProductInfo product={product} />
           </div>
         </section>
 
