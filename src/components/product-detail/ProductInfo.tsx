@@ -64,9 +64,9 @@ const ProductInfo: React.FC<ProductInfoProps> = ({ product }) => {
             <div className="mb-6">
               <div className="flex items-center space-x-2 text-sm text-primary-600 mb-4">
               <span>
-                {product.category === 'table' && 'Masa'}
+                {product.category === 'cekmecesiz_okeyset' && 'Çekmecesiz Okey Masa Seti'}
                 {product.category === 'chair' && 'Sandalye'}
-                {product.category === 'stool' && 'Bar Taburesi'}
+                {product.category === 'cekmeceli_okeyset' && 'Çekmeceli Okey Masa Seti'}
                 {product.category === 'set' && 'Set'}
               </span>
                 <span>•</span>

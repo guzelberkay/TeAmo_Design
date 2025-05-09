@@ -41,9 +41,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, index }) => {
             </p>
             <div className="flex justify-between items-center">
             <span className="text-sm text-primary-700">
-              {product.category === 'table' && 'Masa'}
+              {product.category === 'cekmecesiz_okeyset' && 'Çekmecesiz Okey Masa Seti'}
               {product.category === 'chair' && 'Sandalye'}
-              {product.category === 'stool' && 'Bar Taburesi'}
+              {product.category === 'cekmeceli_okeyset' && 'Çekmeceli Okey Masa Seti'}
               {product.category === 'set' && 'Set'}
             </span>
               <span className="inline-flex items-center text-sm font-medium text-primary-800 hover:text-primary-700 transition-colors">

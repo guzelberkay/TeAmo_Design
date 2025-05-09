@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Instagram, Mail, Phone } from 'lucide-react';
+import { Instagram, Phone } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -16,13 +16,10 @@ const Footer: React.FC = () => {
                 Kafeler ve restoranlar için özel tasarım mobilyalar. Şıklık, konfor ve kalite bir arada.
               </p>
               <div className="flex space-x-4">
-                <a href="https://instagram.com/teamodesign" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-[#fff6eb]">
+                <a href="https://www.instagram.com/teamodesing/?utm_source=qr&igsh=NnJlN3N5dGU1aTB4#" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="hover:text-[#fff6eb]">
                   <Instagram size={20} />
                 </a>
-                <a href="mailto:info@teamodesign.com" className="hover:text-[#fff6eb]" aria-label="Mail">
-                  <Mail size={20} />
-                </a>
-                <a href="https://wa.me/905555555555" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="hover:text-[#fff6eb]">
+                <a href="https://wa.me/905339388782" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="hover:text-[#fff6eb]">
                   <Phone size={20} />
                 </a>
               </div>
@@ -43,16 +40,18 @@ const Footer: React.FC = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Ürün Kategorileri</h4>
               <ul className="space-y-2 text-sm">
-                <li><Link to="/products?category=table" className="hover:text-[#fff6eb]">Masalar</Link></li>
+                <li><Link to="/products?category=cekmecesiz_okeyset" className="hover:text-[#fff6eb]">Çekmecesiz Okey
+                  Masa Takımı</Link></li>
+                <li><Link to="/products?category=cekmeceli_okeyset" className="hover:text-[#fff6eb]">Çekmecesiz Okey
+                  Masa Takımı</Link></li>
                 <li><Link to="/products?category=chair" className="hover:text-[#fff6eb]">Sandalyeler</Link></li>
-                <li><Link to="/products?category=stool" className="hover:text-[#fff6eb]">Bar Tabureleri</Link></li>
                 <li><Link to="/products?category=set" className="hover:text-[#fff6eb]">Setler</Link></li>
               </ul>
             </div>
           </div>
 
           {/* Divider */}
-          <div className="border-t border-[#7a5e44] pt-6 mt-6" />
+          <div className="border-t border-[#7a5e44] pt-6 mt-6"/>
 
           {/* Alt bilgi */}
           <div className="mt-6 text-center">

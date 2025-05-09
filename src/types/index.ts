@@ -14,7 +14,7 @@ export interface Product {
   images: string[];
 }
 
-export type ProductCategory = 'table' | 'chair' | 'stool' | 'set';
+export type ProductCategory = 'cekmecesiz_okeyset' | 'chair' | 'cekmeceli_okeyset' | 'set';
 
 export interface CategoryInfo {
   id: ProductCategory;

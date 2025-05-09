@@ -21,12 +21,12 @@ const Products: React.FC = () => {
   
   const getCategoryTitle = (): string => {
     switch (category) {
-      case 'table':
-        return 'Masalar';
+      case 'cekmeceli_okeyset':
+        return 'Çekmeceli Okey Masa Seti';
       case 'chair':
         return 'Sandalyeler';
-      case 'stool':
-        return 'Bar Tabureleri';
+      case 'cekmecesiz_okeyset':
+        return 'Çekmecesiz Okey Masa Seti';
       case 'set':
         return 'Setler';
       default:

@@ -34,6 +34,27 @@ import sandalye9 from '../images/sandalye_9.webp';
 import sandalye10 from '../images/sandalye_10.webp';
 import sandalye11 from '../images/sandalye_11.webp';
 import sandalye12 from '../images/sandalye_12.webp';
+import cekmeceli_okey_masa_takim_1 from  '../images/cekmeceli_okey_masa_takim_1.webp';
+import cekmeceli_okey_masa_takim_2 from  '../images/cekmeceli_okey_takim_2.webp';
+import cekmeceli_okey_masa_takim_3 from  '../images/cekmeceli_okey_takim_3.webp';
+import cekmeceli_okey_masa_takim_4 from  '../images/cekmeceli_okey_takim_4.webp';
+import cekmeceli_okey_masa_takim_4_1 from  '../images/cekmeceli_okey_takim_4_1.webp';
+import cekmeceli_okey_masa_takim_5 from  '../images/cekmeceli_okey_takim_5.webp';
+
+
+
+import cekmecesiz_okey_masa_takim_1 from  '../images/cekmecesiz_okey_masa_takim_1.webp';
+import cekmecesiz_okey_masa_takim_2 from  '../images/cekmecesiz_okey_masa_takim_2.webp';
+import cekmecesiz_okey_masa_takim_3 from  '../images/cekmecesiz_okey_masa_takim_3.webp';
+import cekmecesiz_okey_masa_takim_4 from  '../images/cekmecesiz_okey_masa_takim_4.webp';
+import cekmecesiz_okey_masa_takim_5 from  '../images/cekmecesiz_okey_masa_takim_5.webp';
+
+
+
+
+
+import header from '../images/header.webp'
+
 
 
 
@@ -44,28 +65,30 @@ import sandalye12 from '../images/sandalye_12.webp';
 
 export const categories: CategoryInfo[] = [
   {
-    id: 'table',
-    name: 'Masalar',
-    description: 'Şık ve dayanıklı cafe masaları',
-    image: 'https://images.pexels.com/photos/2079249/pexels-photo-2079249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-  },
-  {
     id: 'chair',
     name: 'Sandalyeler',
-    description: 'Konforlu ve estetik cafe sandalyeleri',
-    image: 'https://images.pexels.com/photos/6707628/pexels-photo-6707628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    description: 'Konf' +
+        'orlu ve estetik cafe sandalyeleri',
+    image: sandalye3
   },
   {
-    id: 'stool',
-    name: 'Bar Tabureleri',
-    description: 'Modern ve şık bar tabureleri',
-    image: 'https://images.pexels.com/photos/7061071/pexels-photo-7061071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    id: 'cekmeceli_okeyset',
+    name: "Çekmeceli Okey Masa Takımları",
+    description: "Özel olarak tasarlanmış modern okey masa takımları.",
+    image: cekmeceli_okey_masa_takim_1
   },
+  {
+    id: 'cekmecesiz_okeyset',
+    name: "Çekmecesiz Okey Masa Takımları",
+    description: "Özel olarak tasarlanmış modern okey masa takımları.",
+    image: cekmecesiz_okey_masa_takim_1
+  },
+
   {
     id: 'set',
     name: 'Setler',
     description: 'Uyumlu ve ekonomik masa-sandalye setleri',
-    image: 'https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    image: header
   }
 ];
 
@@ -459,7 +482,118 @@ export const products: Product[] = [
       dimensions: { width: 52, depth: 60, height: 85 },
       price: 7600,
       images: [sandalye12]
-    }
+    },
+  {
+    id: '28',
+    name: 'Urban Deri Detaylı Okey Masa Takımı',
+    category: 'cekmecesiz_okeyset',
+    shortDescription: 'Modern çizgilere sahip, deri kayış detaylı sandalye kombinasyonu.',
+    description: 'Modern kafeler ve sosyal alanlar için tasarlanmış, doğal ahşap masa ve deri kayış sırt destekli sandalyelerden oluşan dayanıklı ve estetik bir takımdır.',
+    material: 'Laminat ahşap tabla, metal ayaklar, deri sırt kayışlı sandalye',
+    dimensions: { width: 52, depth: 60, height: 85 },
+    price: 7600,
+    images: [cekmecesiz_okey_masa_takim_1]
+  },
+  {
+    id: '29',
+    name: 'Verona Kadife Sandalyeli Okey Masa Takımı',
+    category: 'cekmecesiz_okeyset',
+    shortDescription: 'Yumuşak oturum sağlayan kadife kumaşlı sandalyelerle şık kombin.',
+    description: 'Estetik ve konforu bir arada sunan bu takım, ahşap yüzeyli masa ve zarif yeşil kadife sandalyeleriyle iç mekânlarda şıklık arayan işletmeler için ideal tercihtir.',
+    material: 'Laminat tabla, metal ayak, kadife döşeme sandalye',
+    dimensions: { width: 52, depth: 60, height: 85 },
+    price: 7600,
+    images: [cekmecesiz_okey_masa_takim_2]
+  },
+  {
+    id: '30',
+    name: 'Linea Metal Sırtlı Okey Masa Takımı',
+    category: 'cekmecesiz_okeyset',
+    shortDescription: 'Modern çizgiler taşıyan tel sırtlı sandalye tasarımı.',
+    description: 'Minimal ve endüstriyel dekorasyonlara uygun, siyah metal sırtlı sandalyeler ve doğal görünümlü masa ile işlevselliği ve modernliği bir arada sunar.',
+    material: 'Laminat tabla, elektrostatik boyalı metal ayak ve sandalye',
+    dimensions: { width: 52, depth: 60, height: 85 },
+    price: 7600,
+    images: [cekmecesiz_okey_masa_takim_3]
+  },
+  {
+    id: '31',
+    name: 'Natura Kolçaklı Okey Masa Takımı',
+    category: 'cekmecesiz_okeyset',
+    shortDescription: 'Geniş oturumlu kolçaklı sandalyelerle klasik kullanım.',
+    description: 'Kolçaklı döşemeli sandalyeleriyle uzun oturumlar için konfor sağlayan bu takım, restoran ve oyun salonları gibi kalabalık kullanıma uygun alanlarda şıklık ve sağlamlığı bir araya getirir.',
+    material: 'Ahşap tabla, kumaş kaplama kolçaklı sandalye, metal konstrüksiyon',
+    dimensions: { width: 52, depth: 60, height: 85 },
+    price: 7600,
+    images: [cekmecesiz_okey_masa_takim_4]
+  },
+  {
+    id: '32',
+    name: 'Armonia Kadife Detaylı Okey Masa Takımı',
+    category: 'cekmecesiz_okeyset',
+    shortDescription: 'Yumuşak hatlara sahip masa ve kadife oturumlu sandalyeler.',
+    description: 'Organik hatlara sahip masa ve döşemeli kadife sandalyeleriyle zarafet ve konfor arayan işletmeler için tasarlanmıştır. Bekleme alanları, sosyal mekanlar ve premium kafelerde kullanıma uygundur.',
+    material: 'Ahşap tabla, siyah metal ayak, kadife kumaş kaplama sandalye',
+    dimensions: { width: 52, depth: 60, height: 85 },
+    price: 7600,
+    images: [cekmecesiz_okey_masa_takim_5]
+  },
+  {
+    id: '33',
+    name: 'Elegan Yuvarlak Çekmeceli Okey Masa Takımı',
+    category: 'cekmeceli_okeyset',
+    shortDescription: 'Yuvarlak formda, çekmeceli ve döşemeli kolçaklı sandalye kombinasyonu.',
+    description: 'Kompakt yapısı ve konforlu kolçaklı sandalyeleriyle dikkat çeken bu takım, koyu ahşap görünüm ve metal destekli ayaklarla tamamlanır. Oyun sırasında konfor ve düzeni ön planda tutar.',
+    material: 'Yuvarlak kompakt laminat tabla, elektrostatik boyalı metal ayak, kumaş döşemeli kolçaklı sandalye, çekmece modülü',
+    dimensions: { width: 52, depth: 60, height: 85 },
+    price: 7600,
+    images: [cekmeceli_okey_masa_takim_1]
+  },
+  {
+    id: '34',
+    name: 'Milano Desenli Koltuklu Çekmeceli Okey Masa Takımı',
+    category: 'cekmeceli_okeyset',
+    shortDescription: 'Koltuk konforunda oturum sağlayan desenli sandalye yapısı.',
+    description: 'Kalabalık ve yoğun kullanım alanları için üretilmiş, yüksek konfor düzeyi sağlayan döşemeli sandalyeleri ve merkezden açılan çekmeceleriyle hem estetik hem işlevsel bir tasarım sunar.',
+    material: 'Kare laminat tabla, metal ayak, döşemeli koltuk tipi sandalye, içten çekmeceli mekanizma',
+    dimensions: { width: 52, depth: 60, height: 85 },
+    price: 7600,
+    images: [cekmeceli_okey_masa_takim_2]
+  },
+  {
+    id: '35',
+    name: 'Prestige Köşeli Mermer Desenli Okey Masa Takımı',
+    category: 'cekmeceli_okeyset',
+    shortDescription: 'Mermer desenli tabla ve ahşap kol detaylı koltuk yapısı.',
+    description: 'Görsel bütünlüğü ön planda tutan, mermer desenli laminat tabla ve içe gömülü çekmeceli yapısıyla profesyonel ortamlara uygun şık bir masa takımıdır.',
+    material: 'Köşeli mermer desenli tabla, metal ayak, döşemeli kolçaklı sandalye, ahşap kol detayları, entegre çekmece',
+    dimensions: { width: 52, depth: 60, height: 85 },
+    price: 7600,
+    images: [cekmeceli_okey_masa_takim_3]
+  },
+  {
+    id: '36',
+    name: 'Avantgarde Altıgen Çekmeceli Okey Masa Takımı',
+    category: 'cekmeceli_okeyset',
+    shortDescription: 'Altıgen formda, ahşap kollu ve çekmeceli fonksiyonel tasarım.',
+    description: 'Altıgen yüzeyi sayesinde tüm oyunculara eşit alan sağlayan bu takım; sade, güçlü bir duruş ile birlikte yüksek konforlu oturum sunar. Profesyonel oyun salonlarına ve otel lobilerine önerilir.',
+    material: 'Altıgen laminat tabla, siyah metal gövde, kol destekli döşemeli sandalye, çekmeceli mekanizma',
+    dimensions: { width: 52, depth: 60, height: 85 },
+    price: 7600,
+    images: [cekmeceli_okey_masa_takim_4_1, cekmeceli_okey_masa_takim_4]
+  },
+  {
+    id: '37',
+    name: 'Noble Lacivert Döşemeli Çekmeceli Okey Masa Takımı',
+    category: 'cekmeceli_okeyset',
+    shortDescription: 'Kontrast detaylarla tasarlanmış modern ve fonksiyonel set.',
+    description: 'Lacivert oturum kumaşı, doğal ahşap kolçak geçişleri ve siyah metal ayak yapısıyla modern tasarımın işlevsellikle birleştiği bu takım, premium işletmeler için önerilir.',
+    material: 'Mermer desenli tabla, siyah metal ayaklar, döşemeli sandalye, renk geçişli kolçaklar, entegre çekmece',
+    dimensions: { width: 52, depth: 60, height: 85 },
+    price: 7600,
+    images: [cekmeceli_okey_masa_takim_5]
+  },
+
 
 
 
