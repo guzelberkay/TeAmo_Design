@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { LogIn as WhatsappLogo } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Product } from '../../types';
-import { formatPrice, generateWhatsAppLink } from '../../utils/helpers';
 
 interface ProductInfoProps {
   product: Product;
@@ -73,9 +72,7 @@ const ProductInfo: React.FC<ProductInfoProps> = ({ product }) => {
                 <span>Stokta</span>
               </div>
 
-              <div className="text-2xl font-medium text-primary-900 mb-6">
-                {formatPrice(product.price)}
-              </div>
+
 
               <p className="text-primary-800 mb-8">{product.description}</p>
 
@@ -84,16 +81,10 @@ const ProductInfo: React.FC<ProductInfoProps> = ({ product }) => {
                   <h3 className="font-medium mb-2">Malzeme</h3>
                   <p className="text-primary-700">{product.material}</p>
                 </div>
-                <div>
-                  <h3 className="font-medium mb-2">Ölçüler</h3>
-                  <p className="text-primary-700">
-                    {product.dimensions.width} cm (genişlik) x {product.dimensions.depth} cm (derinlik) x {product.dimensions.height} cm (yükseklik)
-                  </p>
-                </div>
+
               </div>
 
               <a
-                  href={generateWhatsAppLink(product)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-whatsapp w-full sm:w-auto flex items-center justify-center"
