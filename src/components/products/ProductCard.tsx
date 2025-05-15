@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Product } from '../../types';
-import { formatPrice } from '../../utils/helpers';
 
 interface ProductCardProps {
   product: Product;
@@ -26,9 +25,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, index }) => {
                 alt={product.name}
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
-            <div className="absolute top-3 right-3 bg-white px-3 py-1 rounded text-sm font-medium text-primary-800 shadow">
-              {formatPrice(product.price)}
-            </div>
+
           </div>
 
           {/* Alt içerik */}
