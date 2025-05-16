@@ -22,6 +22,8 @@ import cafeTakim15_2 from '../images/cafe_takim_15.2.webp';
 import cafeTakim16 from '../images/cafe_takim_16.webp';
 import cafeTakim17 from '../images/cafe_takim_17.webp';
 import cafeTakim18 from '../images/cafe_takim_18.webp';
+import cafeTakim19 from '../images/cafe_takim_19.webp';
+
 
 
 
@@ -701,7 +703,16 @@ export const products: Product[] = [
     description: 'Classic Okey Masa Takımı, ceviz desenli kare masa ve siyah kumaş döşemeli sandalyeleriyle sıcak ve zarif bir ortam yaratır. Çekmecesiz tasarımıyla şık bir görünüm sunarken, dayanıklı masa tablası ve ergonomik sandalyeleriyle uzun süreli konfor sağlar. Cafe, oyun salonu ve sosyal alanlar için ideal bir tercihtir.',
     material: 'Ceviz desenli MDF masa tablası, metal ayaklı kumaş döşemeli sandalye',
     images: [cekmecesiz_okey_masa_takim_6]
+  },{
+    id: '60',
+    name: 'Oval Nordic Dining Set',
+    category: 'set',
+    shortDescription: 'Ahşap oval masa ve modern döşemeli sandalyelerden oluşan zarif yemek seti.',
+    description: 'Oval Nordic Dining Set, doğal ahşap desenli oval masa tablası ve modern gri döşemeli sandalyeleriyle sıcak ve minimalist bir atmosfer sunar. Siyah çizgili güçlü masa ayakları ve ergonomik sırt destekli sandalyeleri, konforu ve estetiği bir araya getirir. Ev, restoran ve ofis yemek alanlarında sofistike bir şıklık sağlar.',
+    material: 'Ahşap desenli MDF masa tablası, siyah metal masa ayakları, kumaş döşemeli metal sandalye',
+    images: [cafeTakim19]
   },
+
 
 
 
